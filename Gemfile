@@ -18,6 +18,9 @@ gem 'jbuilder', '~> 2.0'
 # Simple Form
 gem 'simple_form'
 
+# Authentication
+gem 'devise'
+
 # Documentation
 gem 'sdoc', '~> 0.4.0', group: :doc
 
