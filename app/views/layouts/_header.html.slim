@@ -1,0 +1,30 @@
+header
+  nav.navbar.navbar-default
+    .container-fluid
+      .navbar-header
+        button.navbar-toggle.collapsed aria-controls="navbar" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        
+        .navbar-brand
+          = link_to root_path
+            | kokobooks
+
+      .navbar-collapse.collapse id="navbar-links"
+        ul.nav.navbar-nav.navbar-right
+          li
+            = link_to "Books", "#"
+          
+          - if current_user
+          
+            li
+              = link_to "Settings", edit_user_registration_path
+            li 
+              = link_to "Log Out", destroy_user_session_path
+
+          - else
+          
+            li
+              = link_to "Log In", new_user_session_path
