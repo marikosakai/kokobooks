@@ -1,5 +1,25 @@
-.header {
+header {
 
-  
+  .navbar-default {
+    background-color: black !important;
+    border-color: black !important;
+    border-radius: 0px;
+  }
+
+  .navbar-nav li a {
+    padding-top:4px !important;
+    padding-bottom:0 !important;
+    height: 28px;
+  }
+
+  .navbar-brand {
+    padding-top:4px !important;
+    padding-bottom:0 !important;
+    height: 28px;
+  }
+
+  .navbar {
+    min-height:28px !important;
+  }
 
 }

@@ -9,22 +9,22 @@ header
           span.icon-bar
         
         .navbar-brand
-          = link_to root_path
-            | kokobooks
+          = link_to root_path, class: 'company-name'
+            | KOKOBOOKS
 
       .navbar-collapse.collapse id="navbar-links"
         ul.nav.navbar-nav.navbar-right
           li
-            = link_to "Books", "#"
+            = link_to "Books", "#", class: 'header-elements'
           
           - if current_user
           
             li
-              = link_to "Settings", edit_user_registration_path
+              = link_to "Settings", edit_user_registration_path, class: 'header-elements'
             li 
-              = link_to "Log Out", destroy_user_session_path
+              = link_to "Log Out", destroy_user_session_path, class: 'header-elements'
 
           - else
           
             li
-              = link_to "Log In", new_user_session_path
+              = link_to "Log In", new_user_session_path, class: 'header-elements'

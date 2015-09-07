@@ -1,7 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic);
+
+// Header
+
+.company-name {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13px;
+  color: #1ABC9C !important;
+  letter-spacing: 2.5px;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:focus {
+    text-decoration: none;
+    color: #1ABC9C !important;
+  }
+}
+
+.header-elements {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13px;
+  color: #FFE484 !important;
+  letter-spacing: 2.5px;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:focus {
+    text-decoration: none;
+    color: #FFE484 !important;
+  }
+}
+
 // Landing Page
 
 .main-landing-title {
-  font-family: 'Arial';
+  font-family: 'PT Sans', sans-serif;
   font-size: 50px;
-  color: #1ABC9C;
+  color: black;
+  letter-spacing: 2.0px;
+}
+
+.main-landing-company-name {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 50px;
+  color: #FFE484;
+  letter-spacing: 2.0px;
+  border-bottom: 3px solid #FFE484;
+}
+
+.main-landing-subtitle {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  color: black;
+  letter-spacing: 2.0px;
 }
