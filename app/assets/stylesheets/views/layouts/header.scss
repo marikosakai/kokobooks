@@ -4,6 +4,7 @@ header {
     background-color: black !important;
     border-color: black !important;
     border-radius: 0px;
+    margin: 0;
   }
 
   .navbar-nav li a {
@@ -20,6 +21,33 @@ header {
 
   .navbar {
     min-height:28px !important;
+  }
+
+  .header-logo {
+    z-index: 100;
+    top: 30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+  }
+
+  .header-nav ul {
+    list-style-type: none;
+  }
+
+  .header-left {
+    width: 50%;
+  }
+
+  .header-right {
+    width: 50%;
+  }
+
+  .header-menu-position {
+    display: inline-block;
+    position: relative;
   }
 
 }

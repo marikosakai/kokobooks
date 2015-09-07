@@ -1,5 +1,20 @@
 .landing {
 
-  
+  .hero-unit {
+    height: 80vh;
+    width: 100vw;
+    margin-bottom: 3%;
+    background-image: image-url("Bookshelf2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: table;
+    position: relative;
+    opacity: 0.8;
+
+    .slogan {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
 
 }

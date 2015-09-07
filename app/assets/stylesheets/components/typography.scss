@@ -4,6 +4,7 @@
 
 .company-name {
   font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
   font-size: 13px;
   color: #1ABC9C !important;
   letter-spacing: 2.5px;
@@ -34,12 +35,29 @@
   }
 }
 
+.header-menu-item {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13px;
+  color: #FFE484 !important;
+  letter-spacing: 2.5px;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:focus {
+    text-decoration: none;
+    color: #FFE484 !important;
+  }
+}
+
 // Landing Page
 
 .main-landing-title {
   font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
   font-size: 50px;
-  color: black;
+  color: white;
   letter-spacing: 2.0px;
 }
 
@@ -54,6 +72,6 @@
 .main-landing-subtitle {
   font-family: 'PT Sans', sans-serif;
   font-size: 20px;
-  color: black;
+  color: #1ABC9C;
   letter-spacing: 2.0px;
 }
