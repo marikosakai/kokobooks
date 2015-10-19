@@ -5,6 +5,7 @@ header {
     border-color: black !important;
     border-radius: 0px;
     margin: 0;
+    height: 100px;
   }
 
   .navbar-nav li a {
@@ -37,12 +38,8 @@ header {
     list-style-type: none;
   }
 
-  .header-left {
-    width: 50%;
-  }
-
-  .header-right {
-    width: 50%;
+  .header-nav {
+    margin-top: 35px;
   }
 
   .header-menu-position {

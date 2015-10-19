@@ -30,7 +30,7 @@ header
               
                 li
                   = link_to "Log In", new_user_session_path, class: 'header-elements'
-              
+
           .row
             .header-bar
               .container-fluid
@@ -38,13 +38,35 @@ header
                   = link_to root_path
                     = image_tag 'kokobooks_logo.png'
                 .header-nav
-                  ul.header-left
-                    li
-                      = link_to "Shop", "#", class: 'header-menu-item header-menu-position'
-                    li
-                      = link_to "About", "#", class: 'header-menu-item header-menu-position'
-                  ul.header-right
-                    li
-                      = link_to "FAQ", "#", class: 'header-menu-item header-menu-position'
-                    li
-                      = link_to "Contact", "#", class: 'header-menu-item header-menu-position'
+                  .row
+                    ul
+                      .col-md-3.text-center
+                        li
+                          = link_to "Shop", "#", class: 'header-menu-item header-menu-position'
+                      .col-md-3.text-center
+                        li
+                          = link_to "About", "#", class: 'header-menu-item header-menu-position'
+                      .col-md-3.text-center
+                        li
+                          = link_to "FAQ", "#", class: 'header-menu-item header-menu-position'
+                      .col-md-3.text-center
+                        li
+                          = link_to "Contact", "#", class: 'header-menu-item header-menu-position'
+              
+          / .row
+          /   .header-bar
+          /     .container-fluid
+          /       .header-logo
+          /         = link_to root_path
+          /           = image_tag 'kokobooks_logo.png'
+          /       .header-nav
+          /         ul.header-left
+          /           li
+          /             = link_to "Shop", "#", class: 'header-menu-item header-menu-position'
+          /           li
+          /             = link_to "About", "#", class: 'header-menu-item header-menu-position'
+          /         ul.header-right
+          /           li
+          /             = link_to "FAQ", "#", class: 'header-menu-item header-menu-position'
+          /           li
+          /             = link_to "Contact", "#", class: 'header-menu-item header-menu-position'

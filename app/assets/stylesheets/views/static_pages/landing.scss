@@ -7,9 +7,10 @@
     background-image: image-url("Bookshelf2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 50% 81%;
     display: table;
     position: relative;
-    opacity: 0.8;
+    opacity: 0.75;
 
     .slogan {
       display: table-cell;
